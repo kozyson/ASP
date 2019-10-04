@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="" title=""  description="">
+      <siteMapNode url="SiteMap.aspx" title="Country"  >
+        <siteMapNode url="page1.aspx" title="India"   />
+        <siteMapNode url="page2.aspx" title="China"    />
+        <siteMapNode url="page3.aspx" title="US"    />
+      </siteMapNode>
+
+    </siteMapNode>
+</siteMap>

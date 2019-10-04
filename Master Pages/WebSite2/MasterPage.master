@@ -1,0 +1,76 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+       <style type="text/css">
+ 
+#header
+{
+    height: 50px;
+    background-color: Aqua;
+}
+#nav
+{
+    height: 200px;
+    background-color: Lime;
+    width: 150px;
+    float: left;
+}
+#content
+{
+    height: 200px;
+    background-color: Silver;
+}
+#footer
+{
+    clear: both;
+    height: 25px;
+    background-color: Fuchsia;
+}
+           .style1
+           {
+               text-align: center;
+           }
+   </style>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="header">
+           <h1>  My company  </h1>
+         </div>
+
+    <div id="nav">
+             
+        <br />
+        <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Home.aspx">Home</asp:HyperLink>
+        <br />
+        <br />
+        <br />
+        <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Register.aspx">Register</asp:HyperLink>
+        <br />
+        <br />
+        <br />
+        <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/login.aspx">Login</asp:HyperLink>
+             
+     </div>
+
+   <div id="content">
+       
+       <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+           <p>
+               This is master</p>
+       </asp:ContentPlaceHolder>
+       
+   </div>
+
+   <div id="footer" class="style1">
+    
+       All rights reserved 2019.</div>
+
+    </form>
+</body>
+</html>
