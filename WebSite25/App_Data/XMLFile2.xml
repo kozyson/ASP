@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<messages>
+  <message id="101">
+    <to>BDPS</to>
+    <from>Rajesh</from>
+    <date>14 October 2014</date>
+    <subject>Batch Details</subject>
+    <body>Could you tell me the New Batches for ASP.net ?</body>
+  </message>
+  <message id="109">
+    <to>BDPS</to>
+    <from>Kishore</from>
+    <date>14 October 2014</date>
+    <subject>Batch Details</subject>
+    <body>
+      Could you tell me when will  New Batches for MS.net starts ?
+    </body>
+  </message>
+</messages>

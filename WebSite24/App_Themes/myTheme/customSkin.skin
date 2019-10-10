@@ -1,0 +1,9 @@
+﻿ <asp:DropDownList runat="server"
+
+    CssClass="myCustomStyle" >
+
+    </asp:DropDownList>
+
+
+<asp:Button runat="server"  BorderStyle="Dotted"
+    CssClass="myCustomStyle" />
